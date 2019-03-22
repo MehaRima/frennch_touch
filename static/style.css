@@ -1,0 +1,157 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(0, 92, 61);
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.input_container {
+    display:flex;
+    flex-direction:row;
+  
+    margin: 5px;
+    
+    border-bottom: 1px solid rgb(0, 92, 61);
+}
+
+.input {
+    flex-grow:2;
+    padding: 0.3em;
+    border: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input:focus{
+    outline: none;
+}
+
+.mapNormal {
+    width: 100%
+}
+
+.geolocation_icon {
+    height: 1em;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.geolocation_icon:hover {
+    cursor: pointer;
+}
+
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+    flex:1;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+.search-button {
+    margin: 5px;
+    padding: 0.3em;
+    background-color: white;
+    border: 1px solid rgb(0, 92, 61);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.bus {
+    border: 1px solid rgb(0, 92, 61);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bus:hover {
+    cursor: pointer;
+}
+
+.driver {
+    font-size: 1.6em;
+    margin-bottom: 0.2em;
+}
+
+.driver .rating {
+    font-size: 0.8em;
+}
+
+.bus-left {
+    width: 70%;
+}
+
+.time-to-departure, .time-to-arrival, .availabe-seats {
+    font-size: 1.2em;
+}
+
+.price {
+    width: 30%;
+    font-size: 1.6em;
+    text-align: center; 
+}
+
+#back {
+    padding: 5px;
+    margin: 5px;
+    display: none;
+    font-size: 20px;
+    border: 1px solid rgb(0, 92, 61);
+    border-radius: 5px;
+    width: 1.2em;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+#back:hover {
+    cursor: pointer;
+}
+
+.confirm {
+    display: none;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(0, 92, 61);
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-color: #fafffa;
+}
+
+.confirm:hover{
+    cursor: pointer;
+}
+
+#qr {
+    display:none;
+    margin: auto;
+}
