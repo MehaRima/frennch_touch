@@ -1,8 +1,10 @@
 
 
 
-#UBER LIKE APPLICATION (buses) ## How to set up on your local environment
-If you don't have pipenv installed : `pip install pipenv`
+# UBER LIKE APPLICATION (buses) 
+## How to set up on your local environment
+If you don't have pipenv installed : 
+`pip install pipenv`
 
 ```
 cd path/to/repo
